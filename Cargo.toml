@@ -1,0 +1,9 @@
+[package]
+name = "bigfloat"
+version = "0.0.0"
+edition = "2024"
+description = "A safe, production-ready wrapper around MPFR for arbitrary-precision floating-point arithmetic."
+license = "GPL V3"
+
+[dependencies]
+gmp-mpfr-sys = "1.7.1"
