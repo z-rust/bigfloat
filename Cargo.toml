@@ -3,7 +3,13 @@ name = "bigfloat"
 version = "0.0.0"
 edition = "2024"
 description = "A safe, production-ready wrapper around MPFR for arbitrary-precision floating-point arithmetic."
-license = "GPL V3"
+license = "GPL-3.0"
+repository = "https://github.com/z-rust/bigfloat"
+homepage = "https://github.com/z-rust/bigfloat"
+documentation = "https://docs.rs/bigfloat"
+readme = "README.md"
+keywords = ["bigfloat", "mpfr", "arbitrary-precision", "floating-point", "math"]
+categories = ["science", "mathematics"]
 
 [dependencies]
 gmp-mpfr-sys = "1.7.1"
